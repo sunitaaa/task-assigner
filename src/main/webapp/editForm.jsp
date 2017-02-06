@@ -14,7 +14,7 @@
         <h1>Registration Form </h1>
                 <pre>{{taskctrl.taskList| json}}</pre>
         <form ng-submit="taskctrl.getAllUsersTask()" name="myForm">
-            <table>
+            <table class="table table-striped">
                 <tr>
                     <td> Name</td>
                     <td><input type="text" ng-model="taskctrl.taskList.name"  /></td>

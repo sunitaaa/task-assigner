@@ -1,14 +1,14 @@
-<%-- 
-    Document   : registration
-    Created on : Jan 9, 2017, 7:37:33 AM
-    Author     : snam joshi
---%>
+
 <div>
     <ul>
         <li><a href="#home">Add User</a></li>
         <li><a href="#news">List Users</a></li>
     </ul>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+        <link href="//cdn.rawgit.com/cornflourblue/angular-registration-login-example/master/app-content/app.css" rel="stylesheet" />
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.css"/>  
     <h1>User Registration Form </h1>
+    <div class="container">
     <form ng-submit="regstController.createUser()" name="myForm" >
 
         <div>
@@ -25,7 +25,7 @@
 
         <br>
         <div>
-            Mobile Number:<input type="text" ng-model="regstController.userData.mobileNumber" id="mobileNumber" placeholder="Enter your mobile number" >
+            Mobile Number: <input type="text" ng-model="regstController.userData.mobileNumber" id="mobileNumber" placeholder="Enter your mobile number" >
 
         </div>
 
@@ -56,5 +56,6 @@
         <input type="submit" value="submit">
 
     </form>
+        </div>
 
 </div>

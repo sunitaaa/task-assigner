@@ -10,7 +10,7 @@
         <!--    <pre>{{taskctrl.tasks}}</pre>-->
         <h1>Task Lists</h1>
         <!--    <pre>{{taskList}}</pre>-->
-        <table border="2">
+        <table class="table table-striped" border="2">
             <tr>
                 <th>Id</th>
                 <th>Name</th>
